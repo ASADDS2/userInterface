@@ -1,0 +1,19 @@
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.container {
+
+    margin: 300px auto;
+    max-width: 500px; 
+    text-align: center;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+label{
+    text-align: center;
+}
