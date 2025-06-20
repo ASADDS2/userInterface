@@ -4,7 +4,7 @@ This interface lets you quickly check if you're of legal age. It features a clea
 Explore the JavaScript world from basic basics to advanced object handling, this repository contains basic information to master Vanilla / Native JavaScript.
 
 # How to use?
-## 1. Clonar el Repositorio:
+## 1. Clone the repository:
 ![alt text](image.webp)
 git clone https://github.com/ASADDS2/userInterface.git
 Clone the repository, preferably via SSH security keys, or you can also use the HTTPS method.
