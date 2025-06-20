@@ -1,6 +1,8 @@
 
-//
+//function onclick to button
 function userInterface() {
+
+    // Variables to inputs
     let name = document.getElementById("name").value;
     let ageInput = document.getElementById("age").value;
 
@@ -10,6 +12,7 @@ function userInterface() {
     age = parseFloat(ageInput)
 
 
+    // Procces to validation
     if (isNaN(age)) {
         document.getElementById("result").innerText = "Please enter a valid age"
     } else if (name == "") {

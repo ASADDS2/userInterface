@@ -1,15 +1,18 @@
-body{
+/* General styles for the body of the page */
+body {
     font-family: "Roboto Condensed", sans-serif;
     background-color: black;
     padding: 3%;
 }
 
-h1{
+/* Styles for h1 headings */
+h1 {
     text-align: center;
     width: 100%;
     overflow: hidden;
 }
 
+/* Styles for the main container */
 .container {
     color: white;
     margin: 300px auto;
@@ -23,6 +26,8 @@ h1{
     animation: aparecer 5s forwards;
     transition: transform 0.3s ease;
 }
+
+/* Keyframes for the "aparecer" animation (fade in) */
 @keyframes aparecer {
     from {
         opacity: 0;
@@ -32,27 +37,29 @@ h1{
     }
 }
 
-
-#name,#age{
+/* Styles for elements with IDs "name" and "age" */
+#name, #age {
     width: 50%;
     border-radius: 5vh;
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
 }
 
-button{
+/* Styles for buttons */
+button {
     border-radius: 5vh;
     font-family: "Roboto Condensed", sans-serif;
     margin: 5px;
 }
 
-button:hover{
+/* Styles when hovering over buttons */
+button:hover {
     color: rgb(255, 255, 255);
     background-color: black;
 }
 
-
-.copyright-footer{
+/* Styles for the footer with class "copyright-footer" */
+.copyright-footer {
     text-align: center;
-    color: rgb(97, 97, 97)
+    color: rgb(97, 97, 97);
 }
