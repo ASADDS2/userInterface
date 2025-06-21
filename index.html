@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- All the meta charsets needed -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <title>Document</title>
+    <meta name="description" content="App to vereficate age of users">
+    <meta name="keywords" content="UI, User, Interface, vereficate, Age, Name, Users, App, Legal age, Minor.">
+    <meta name="author" content="Sebastian Arnache Cantillo">
+    <meta name="designer" content="Sebastian Arnache">
+    <meta name="organization" content="ASADDS2">
+    <meta name="copyright" content="All rights reserved. © 2025 Sebastian Arnache Cantillo.">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <link rel="stylesheet" href="./src/CSS/styles.css">
+    <link rel="shortcut icon" href="./src/Icons/icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./src/CSS/fonts.css">
+    <title>User Interface for riwi</title>
 </head>
 <body>
+    <!-- Main part -->
+    <main class="container">
+        <!-- Title -->
+        <h1>User Interface</h1>
+        
+        <!-- Form of UI -->
+        <section>
+            
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Please enter your name" required> <br><br>
+            
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Please enter your age" required min="0"> <br><br>
+                
+            <button onclick="userInterface()">Enter</button>
+        </section>
+
+        <!-- Message -->
+        <p id="result"></p>
+    </main>
 
 
-
+    <!-- Copyright part -->
+    <footer>
+        <p class="copyright-footer">© 2025 Sebastian Arnache Cantillo. All rights reserved.</p>
+    </footer>
+    
     <script src="./src/js/main.js"></script>
 </body>
 </html>
