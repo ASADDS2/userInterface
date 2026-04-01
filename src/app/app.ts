@@ -22,7 +22,7 @@ export class App {
   protected hasSubmitted = signal(false);
 
   protected readonly isFormValid = computed(() => {
-    return this.name().trim().length > 0 && this.age().trim().length > 0;
+    return this.name().trim().length > 0 && this.age() !== '';
   });
 
   private validate(): ValidationResult {
