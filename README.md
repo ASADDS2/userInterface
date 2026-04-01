@@ -1,32 +1,59 @@
-# userInterface
-This interface lets you quickly check if you're of legal age. It features a clear title like "Enter" and two simple input fields:   Name: For your name. Age: For your age in years. After entering your details, hit the "Check" button. The result will then appear, telling you clearly if you are "of legal age" or "not yet of legal age." 
-# 
-Explore the JavaScript world from basic basics to advanced object handling, this repository contains basic information to master Vanilla / Native JavaScript.
+# UserInterface
 
-# How to use?
-## 1. Clone the repository:
-![alt text](image.webp)
-git clone https://github.com/ASADDS2/userInterface.git
-Clone the repository, preferably via SSH security keys, or you can also use the HTTPS method.
-example
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
 
-## 2. Browse to the Project Directory:
+## Development server
 
-cd userInterface
+To start a local development server, run:
 
-## 3. Open FileJs.js:
+```bash
+ng serve
+```
 
-As it is JavaScript vanilla you can run any individual file in the browser or in backend using NodeJs.
-Author
-This project was created by Sebastian Arnache Cantillo.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-If you have questions or comments about the project, you can contact Sebastian Arnache Cantillo at sarnachecantillo@gmail.com
+## Code scaffolding
 
-# Contributions
-Contributions are welcome! If you have ideas for improvements or new functions, do not hesitate to send them to the main branch
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-## Project Status
-This project is currently under active development and updates are expected in the near future.
+```bash
+ng generate component component-name
+```
 
-# License
-This project is under the MIT License - see the LICENSE file for more details.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
